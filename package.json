@@ -1,0 +1,33 @@
+{
+  "name": "remixml-jsobj",
+  "version": "4.0.0",
+  "description":
+   "Remixml component that allows converting between HTML and JSON",
+  "main": "remixml-jsobj.min.js",
+  "browser": "remixml-jsobj.min.js",
+  "scripts": {
+    "prepare": "./prepfiles"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "remixml": "*"
+  },
+  "devDependencies": {},
+  "directories": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BuGlessRB/remixml-jsobj"
+  },
+  "keywords": [
+    "remixml",
+    "browser",
+    "render",
+    "DOM",
+    "zerodeps"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "Stephen R. van den Berg <srb@cuci.nl>",
+  "license": "(ISC OR GPL-3.0)"
+}
