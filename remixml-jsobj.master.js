@@ -42,7 +42,7 @@
   { var /** !Object */ parent = {};
     var /** string|number */ name = /** @type{Object} */(vdom)[""];
     if (name === 1)
-      delete vdom[""];
+      delete /** @type{Object} */(vdom)[""];
     else
       for (name of O.keys(vdom).splice(vdom.length))
       { switch (name[0])
@@ -50,7 +50,7 @@
             let /** string */ val = /** @type{Object} */(vdom)[name];
             if (val != null && typeof val !== "object")
             { parent[name] = val;
-              delete vdom[name];
+              delete /** @type{Object} */(vdom)[name];
             }
         }
       }
@@ -66,8 +66,8 @@
   function /** void */ jsobj2abstract(/** !Array */ vdom)
   { var /** !Object */ parent = vdom.shift();
     O.assign(vdom, parent);
-    if (!vdom[""])
-      vdom[""] = 1;
+    if (!/** @type{Object} */(vdom)[""])
+      /** @type{Object} */(vdom)[""] = 1;
     var /** !Array|string */ child;
     var /** number */ i = 0;
     while ((child = vdom[i++]) !== undefined)
