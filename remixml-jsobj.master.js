@@ -22,7 +22,7 @@
 
   const O = Object;
 
-  var g =
+  const /** !Object */ g =
   { "abstract2jsobj": abstract2jsobj,
     "jsobj2abstract": jsobj2abstract
   };
