@@ -1,10 +1,9 @@
 {
   "name": "remixml-jsobj",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description":
    "Remixml component that allows converting between HTML and JSON",
   "main": "remixml-jsobj.min.js",
-  "browser": "remixml-jsobj.min.js",
   "scripts": {
     "prepare": "./prepfiles"
   },
