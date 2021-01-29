@@ -48,7 +48,7 @@
       { switch (name[0])
         { default:
             let /** string */ val = /** @type{Object} */(vdom)[name];
-            if (val != null && typeof val !== "object")
+            if (val != null)
             { parent[name] = val;
               delete /** @type{Object} */(vdom)[name];
             }
