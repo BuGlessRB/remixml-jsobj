@@ -27,13 +27,6 @@
     "jsobj2abstract": jsobj2abstract
   };
 
-  if (!O.assign)
-    O.defineProperty(O, "assign",
-    { "value": function(d, s, i)
-      { if (s) for (i in s) d[i] = s[i]; return d;
-      }
-    });
-
   function /** boolean */ isa(/** *= */ s)
   { return Array.isArray(s);
   }
